@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { Footer } from "../footer/footer";
-import { Header } from "../header/header";
-import { RouterLink } from '@angular/router';
+import { Header } from '../header/header';
+import { Footer } from '../footer/footer';
 
 @Component({
   selector: 'app-contact',
-  imports: [Footer, Header,RouterLink],
+  imports: [Header,Footer],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })
